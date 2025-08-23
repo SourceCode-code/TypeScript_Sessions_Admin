@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es6",            
-    "module": "commonjs",       
-    "outDir": "./Generated_JS",           // compiled .js files will go into 'js' folder
-    "rootDir": "./",                    // .ts files are in the root right now
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./Typescript_Sessions",   // where your .ts files are
+    "outDir": "./Generated_JS",           // where compiled .js files should go
     "strict": true
   },
-  "include": ["*.ts"]                    // include all TS files in the root
+  "include": ["Typescript_Sessions/**/*.ts"]
 }
-
